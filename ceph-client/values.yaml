@@ -221,8 +221,8 @@ secrets:
     admin: ceph-client-admin-keyring
 
 network:
-  public: 192.168.0.0/16
-  cluster: 192.168.0.0/16
+  public: 192.168.13.0/16
+  cluster: 192.168.14.0/16
 
 jobs:
   ceph_defragosds:
@@ -403,7 +403,7 @@ conf:
   ceph:
     global:
       # auth
-      fsid: 1fe64d86-1aa0-4703-8d53-dc80181cffad
+      fsid: 2946cc89-1fa7-4106-86f3-79079b3b8cb0
       cephx: true
       cephx_require_signatures: false
       cephx_cluster_require_signatures: true
